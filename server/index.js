@@ -16,7 +16,7 @@ app.use("/memos", memosRouter);
 app.use(express.static(path.join(__dirname, "../public")));
 
 app.get("/", (req, res) => {
-  res.send("Memo Board API");
+  res.send("Memo Board API~!");
 });
 
 app.get("/health", (req, res) => {
